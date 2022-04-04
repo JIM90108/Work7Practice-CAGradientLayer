@@ -13,6 +13,9 @@
 		EBC9530627F04CC50053C2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC9530427F04CC50053C2DA /* Main.storyboard */; };
 		EBC9530827F04CC80053C2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC9530727F04CC80053C2DA /* Assets.xcassets */; };
 		EBC9530B27F04CC80053C2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC9530927F04CC80053C2DA /* LaunchScreen.storyboard */; };
+		EBC9531527F18E0B0053C2DA /* music.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EBC9531427F18E0B0053C2DA /* music.mp4 */; };
+		EBC9531727F190980053C2DA /* SharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC9531627F190980053C2DA /* SharpImageView.swift */; };
+		EBC9531927F19AD20053C2DA /* MyDearParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBC9531827F19AD20053C2DA /* MyDearParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EBC9530727F04CC80053C2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBC9530A27F04CC80053C2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBC9530C27F04CC80053C2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC9531427F18E0B0053C2DA /* music.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.mp4; sourceTree = "<group>"; };
+		EBC9531627F190980053C2DA /* SharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView.swift; sourceTree = "<group>"; };
+		EBC9531827F19AD20053C2DA /* MyDearParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyDearParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +65,12 @@
 				EBC952FE27F04CC50053C2DA /* AppDelegate.swift */,
 				EBC9530027F04CC50053C2DA /* SceneDelegate.swift */,
 				EBC9530227F04CC50053C2DA /* ViewController.swift */,
+				EBC9531827F19AD20053C2DA /* MyDearParticle.sks */,
 				EBC9530427F04CC50053C2DA /* Main.storyboard */,
+				EBC9531627F190980053C2DA /* SharpImageView.swift */,
 				EBC9530727F04CC80053C2DA /* Assets.xcassets */,
 				EBC9530927F04CC80053C2DA /* LaunchScreen.storyboard */,
+				EBC9531427F18E0B0053C2DA /* music.mp4 */,
 				EBC9530C27F04CC80053C2DA /* Info.plist */,
 			);
 			path = Work7;
@@ -126,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBC9530B27F04CC80053C2DA /* LaunchScreen.storyboard in Resources */,
+				EBC9531527F18E0B0053C2DA /* music.mp4 in Resources */,
 				EBC9530827F04CC80053C2DA /* Assets.xcassets in Resources */,
+				EBC9531927F19AD20053C2DA /* MyDearParticle.sks in Resources */,
 				EBC9530627F04CC50053C2DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +152,7 @@
 				EBC9530327F04CC50053C2DA /* ViewController.swift in Sources */,
 				EBC952FF27F04CC50053C2DA /* AppDelegate.swift in Sources */,
 				EBC9530127F04CC50053C2DA /* SceneDelegate.swift in Sources */,
+				EBC9531727F190980053C2DA /* SharpImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
